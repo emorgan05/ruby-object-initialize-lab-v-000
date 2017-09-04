@@ -20,3 +20,10 @@ class Dog
     @breed
   end
 end
+
+newton = Dog.new("Newton", "black labrador")
+puts newton.name
+puts newton.breed
+goldberry = Dog.new("Goldberry")
+puts goldberry.name
+puts goldberry.breed
